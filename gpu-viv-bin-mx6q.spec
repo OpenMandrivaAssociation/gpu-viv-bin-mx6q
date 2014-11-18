@@ -8,7 +8,6 @@ License:	Proprietary
 Group:		System/Libraries
 Url:		http://www.freescale.com/lgfiles/NMG/MAD/YOCTO/
 ExclusiveArch:	armv7hl
-BuildRequires:	bsdiff
 
 Source0:	%{name}-3.10.17-%{version}.tar.gz
 Source1:	egl.pc
