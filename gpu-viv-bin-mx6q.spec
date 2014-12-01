@@ -2,7 +2,7 @@
 
 Name:		gpu-viv-bin-mx6q
 Version:	1.0.0
-Release:	1
+Release:	2
 Summary:	GPU driver for imx6
 License:	Proprietary
 Group:		System/Libraries
@@ -34,6 +34,7 @@ Group:		System/Libraries
 Provides:	libGL.so.1
 Conflicts:	%{mklibname egl 1}
 Conflicts:	%{mklibname gl 1}
+Provides:	libgl1 = 10.4.0-0.20141106.1:2015.0
 Conflicts:	%{mklibname glesv2 2}
 
 
