@@ -46,6 +46,7 @@ Summary:	Header files & development libraries for imx6 GPU driver
 Group:		Development/C
 Requires:	%{libname} = %{EVRD}
 Provides:	opencl-devel
+Conflicts:	libopencl-devel
 #Requires:	pkgconfig(gl)
 %define	__noautoreq	'devel\\(libGAL\\)'
 Conflicts:	%{mklibname -d egl}
