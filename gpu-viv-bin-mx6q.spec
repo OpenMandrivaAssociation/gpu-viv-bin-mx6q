@@ -33,7 +33,6 @@ Group:		System/Libraries
 # XXX: soname is libGL.so.1.2 rather than libGL.so.1...
 Provides:	libGL.so.1
 Conflicts:	%{mklibname egl 1}
-Conflicts:	%{mklibname gl 1}
 Provides:	libgl1 = 10.4.0-0.20141106.1:2015.0
 Conflicts:	%{mklibname glesv2 2}
 
