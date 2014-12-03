@@ -2,12 +2,12 @@
 
 Name:		gpu-viv-bin-mx6q
 Version:	1.0.0
-Release:	2
+Release:	3
 Summary:	GPU driver for imx6
 License:	Proprietary
 Group:		System/Libraries
 Url:		http://www.freescale.com/lgfiles/NMG/MAD/YOCTO/
-ExclusiveArch:	armv7hl
+ExclusiveArch:	armv7hl armv7hnl
 
 Source0:	%{name}-3.10.17-%{version}.tar.gz
 Source1:	egl.pc
@@ -30,6 +30,7 @@ ExclusiveArch:	armv7hl armv7hnl
 %package -n	%{libname}
 Summary:	Libraries for imx6 GPU driver
 Group:		System/Libraries
+Requires:	wandboard-support-vpu-firmware
 # XXX: soname is libGL.so.1.2 rather than libGL.so.1...
 Provides:	libGL.so.1
 Conflicts:	%{mklibname egl 1}
