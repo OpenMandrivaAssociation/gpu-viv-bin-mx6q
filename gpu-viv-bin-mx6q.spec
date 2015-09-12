@@ -2,7 +2,7 @@
 
 Name:		gpu-viv-bin-mx6q
 Version:	1.0.0
-Release:	3
+Release:	4
 Summary:	GPU driver for imx6
 License:	Proprietary
 Group:		System/Libraries
