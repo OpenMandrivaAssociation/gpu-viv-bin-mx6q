@@ -75,7 +75,7 @@ GAL gfx driver for DirectFB.
 
 %prep
 %setup -q -n %{name}-3.10.17-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 
