@@ -6,7 +6,7 @@ Release:	4
 Summary:	GPU driver for imx6
 License:	Proprietary
 Group:		System/Libraries
-Url:		http://www.freescale.com/lgfiles/NMG/MAD/YOCTO/
+Url:		https://www.freescale.com/lgfiles/NMG/MAD/YOCTO/
 ExclusiveArch:	armv7hl armv7hnl
 
 Source0:	%{name}-3.10.17-%{version}.tar.gz
